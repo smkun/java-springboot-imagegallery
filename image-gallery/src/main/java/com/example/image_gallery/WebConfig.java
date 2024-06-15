@@ -1,6 +1,6 @@
 // WebConfig.java
 
-package com.example.imagegallery;
+package com.example.image_gallery;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
