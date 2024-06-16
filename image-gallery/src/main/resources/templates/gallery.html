@@ -1,3 +1,4 @@
+<!-- gallery.html -->
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
     <head>
@@ -14,10 +15,9 @@
             </ul>
         </nav>
         <h1>Tiny Titans Image Gallery</h1>
-        <div
-            class="gallery-container"
-            th:each="image : ${images}">
+        <div class="gallery-container">
             <img
+                th:each="image : ${images}"
                 th:src="@{'/images/' + ${image.name}}"
                 alt="Gallery Image" />
         </div>
